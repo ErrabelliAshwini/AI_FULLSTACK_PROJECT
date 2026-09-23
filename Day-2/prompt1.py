@@ -1,12 +1,11 @@
 import ollama
 response = ollama.chat(
     model="llama3.2:3b",
-    message=[
+    messages= [
         {
             "role": "user",
-            "content": "Plan a trip to goa."
+            "content": 'What is AI?'
         }
         ]
-    ]
 )
 print(response["message"]["content"])
