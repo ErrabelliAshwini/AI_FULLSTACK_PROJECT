@@ -4,7 +4,7 @@ response = ollama.chat(
     messages=[
         {
             "role": "system",
-            "content": "Give answers in 1000 lines only."
+            "content": "Give answers in 1S lines only."
         },
         {
             "role": "user",

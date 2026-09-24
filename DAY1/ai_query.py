@@ -7,6 +7,5 @@ response = ollama.chat(
             "content": "Plan a trip to goa."
         }
         ]
-    ]
 )
-print(response["message"]["content"])
+print(response["message"]["content"])';lweryi'
